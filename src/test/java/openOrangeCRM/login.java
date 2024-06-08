@@ -12,6 +12,7 @@ public class login {
 		driver =new ChromeDriver();
 		driver.get("https://www.orangecrm.com/");
 		driver.manage().window().maximize();
+		System.out.print("Browser open");
 	
 	}
 
